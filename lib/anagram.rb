@@ -7,10 +7,6 @@ class Anagram
   end
   
   def match(words)
-    array = []
-    words.each{| test|
-      if test
-    
-    words
+    words.delete_if
   end
 end
