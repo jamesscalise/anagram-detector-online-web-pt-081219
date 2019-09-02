@@ -7,7 +7,8 @@ class Anagram
   end
   
   def match(words)
-    words.delete_if{|item| item.sort != @word.sort}
-    words
+    array =[]
+    words.each{|item|
+      
   end
 end
