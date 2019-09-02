@@ -9,6 +9,6 @@ class Anagram
   def match(words)
     
     words.delete_if{|item| item.split("").sort != @word.split("").sort}
-    words 
+     
   end
 end
